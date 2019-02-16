@@ -3,7 +3,7 @@ def bike_charges(x):
 def car_charges(x):
     return(x * 20)
 
-vehicle = input("Mention your vehicle type (choose from: car/bike): ")
+vehicle = input("Mention your vehicle type (Options Available: car and bike): ").lower()
 
 if vehicle == 'bike':
     bike_hrs = int(input("Enter no. of hours of your 2-wheeler parking: "))
